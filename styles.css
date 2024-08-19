@@ -4,6 +4,7 @@
   --primary-color: #232946;
   --primary-color-dark: #232946;
   --primary-color-light: #b8c1ec;
+  --primary-color-pink: #eebbc3;
   --white: #ffffff;
   --max-width: 900px;
   --gradient-1: linear-gradient(to right bottom, #f77d6b, #9e1fdb);
@@ -48,6 +49,10 @@ body {
   background-color: var(--primary-color-dark);
 }
 
+nav {
+  background-image: linear-gradient(to right, #232946, #b8c1ec, #eebbc3)
+}
+
 .nav__bar {
   position: fixed;
   width: 100%;
@@ -65,8 +70,8 @@ body {
 }
 
 .nav__logo a {
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 2.4rem;
+  font-weight: 300;
   color: var(--white);
 }
 
@@ -98,7 +103,8 @@ body {
 }
 
 .nav__links a {
-  color: var(--primary-color-light);
+  color: var(--primary-color-dark);
+  font-weight: 400;
 }
 
 .nav__links a:hover {
@@ -258,13 +264,9 @@ body {
 
 .experience__container h2 {
   margin-bottom: 4rem;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(to right bottom,
-      #9e1fdb 25%,
-      var(--primary-color-dark));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--primary-color-pink);
   text-align: center;
 }
 
@@ -361,7 +363,7 @@ footer {
 
   .nav__bar {
     position: static;
-    padding: 1.75rem 1rem;
+    padding: 1rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
