@@ -129,6 +129,7 @@ nav {
 .header__container img {
   max-width: 200px;
   margin-inline: auto;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   background-color: var(--primary-color-dark);
 }
@@ -427,6 +428,10 @@ footer span {
     z-index: 1;
   }
 
+  .header__container img {
+    margin-top: 1rem;
+  }
+
   .experience__container {
     padding-inline: 7rem;
   }
@@ -454,8 +459,13 @@ footer span {
     gap: 2rem;
   }
 
+  .roadmap__container {
+    padding: 4rem 2rem;
+  }
+
   .roadmap__container h2 {
     font-size: 2.5rem;
+    margin-bottom: 4rem;
   }
 
   .roadmap__item {
@@ -482,12 +492,19 @@ footer span {
     background-color: var(--primary-color-dark);
   }
 
+  .roadmap__content h4 {
+    font-size: 1.5rem;
+  }
+
+  .roadmap__content {
+    padding: 1rem 2rem;
+  }
+
 }
 
 
 /* Educational roadmap styles */
 .roadmap__container {
-  padding: 4rem 2rem;
   background-image: var(--gradient-3);
 }
 
@@ -495,7 +512,6 @@ footer span {
   text-align: center;
   color: var(--primary-color-dark);
   font-weight: bold;
-  margin-bottom: 4rem;
 }
 
 .roadmap {
@@ -514,7 +530,7 @@ footer span {
 
 .roadmap__content {
   background-color: var(--white);
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -525,7 +541,6 @@ footer span {
 }
 
 .roadmap__content h4 {
-  font-size: 1.5rem;
   margin-bottom: 0.5rem;
   color: #34495e;
 }
