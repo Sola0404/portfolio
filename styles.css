@@ -229,9 +229,9 @@ nav {
 }
 
 .carousel-img {
-  height: 300px;
-  border-radius: 20px;
+  height: 100px;
   width: auto;
+  border-radius: 5px;
   margin-inline: auto;
 }
 
@@ -262,13 +262,12 @@ nav {
 .experience__container {
   max-width: 100%;
   background-color: var(--light-background);
-  padding-inline: 7rem;
+  padding-inline: 1rem;
   padding-bottom: 5rem;
 }
 
 .experience__container h2 {
   margin-bottom: 5rem;
-  font-size: 3rem;
   font-weight: 700;
   color: var(--primary-color-dark);
   text-align: center;
@@ -407,6 +406,20 @@ footer span {
     background-image: none;
     transform: none;
     z-index: 1;
+  }
+
+  .experience__container {
+    padding-inline: 7rem;
+  }
+
+  .experience__container h2 {
+    font-size: 3rem;
+  }
+
+  .carousel-img {
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
   }
 
   .skill__flex {
