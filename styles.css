@@ -53,6 +53,10 @@ body {
   background-image: linear-gradient(to right, #232946, #b8c1ec, #eebbc3);
 }
 
+/* p {
+  text-align: justify;
+} */
+
 nav {
   background-image: linear-gradient(to right, #232946, #b8c1ec, #eebbc3);
 }
@@ -222,7 +226,7 @@ nav {
 
 .project__container h2 {
   margin-bottom: 3rem;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   color: var(--white);
   text-align: center;
@@ -308,6 +312,10 @@ nav {
 .experience__header p {
   color: var(--primary-color-light);
   white-space: nowrap;
+}
+
+.experience__list {
+  padding-inline: 1rem;
 }
 
 .experience__list li p {
@@ -413,6 +421,10 @@ footer span {
   }
 
   .experience__container h2 {
+    font-size: 3rem;
+  }
+
+  .project__container h2 {
     font-size: 3rem;
   }
 
