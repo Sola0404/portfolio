@@ -15,11 +15,11 @@
       var(--white) 25%,
       var(--primary-color-light));
   --gradient-3: linear-gradient(to bottom,
-      var(--light-background) 25%,
+      var(--primary-color-light) 25%,
       var(--white));
   --gradient-4: linear-gradient(to bottom,
       var(--white) 25%,
-      var(--light-background));
+      var(--primary-color-light));
 }
 
 * {
