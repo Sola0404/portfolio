@@ -258,11 +258,17 @@ nav {
   color: var(--primary-color-light);
 }
 
+.experience__container {
+  max-width: 100%;
+  background-color: #ced4f8;
+  padding-inline: 7rem;
+}
+
 .experience__container h2 {
   margin-bottom: 4rem;
   font-size: 3rem;
   font-weight: 700;
-  color: var(--primary-color-pink);
+  color: var(--primary-color-dark);
   text-align: center;
 }
 
@@ -286,14 +292,16 @@ nav {
   gap: 10px;
 }
 
-.experience__header img {
-  max-width: 25px;
-}
-
 .experience__header h4 {
   font-display: 1.2rem;
   font-weight: 600;
-  color: var(--white);
+  color: var(--primary-color);
+}
+
+.experience__header h4 span {
+  background: var(--gradient-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .experience__header p {
@@ -302,7 +310,11 @@ nav {
 }
 
 .experience__list li p {
-  color: var(--primary-color-light);
+  color: #767b97;
+}
+
+.experience__list li p span {
+  font-weight: bold;
 }
 
 footer {
