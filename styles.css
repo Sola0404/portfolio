@@ -6,7 +6,9 @@
   --primary-color-light: #b8c1ec;
   --primary-color-pink: #eebbc3;
   --white: #fffffe;
-  --light-background: #d4d8f0;
+  --light-background: #d6dbf5;
+  --dark-background: #515082;
+  --pink-background: #e6d1f1;
   --max-width: 900px;
   --gradient-1: linear-gradient(to right bottom, #f77d6b, #9e1fdb);
   --gradient-2: linear-gradient(to right bottom,
@@ -213,7 +215,7 @@ nav {
 .project__container {
   max-width: 100%;
   height: max-content;
-  background-color: var(--primary-color-dark);
+  background-color: var(--dark-background);
   padding-bottom: 40px;
 }
 
@@ -260,10 +262,11 @@ nav {
   max-width: 100%;
   background-color: var(--light-background);
   padding-inline: 7rem;
+  padding-bottom: 5rem;
 }
 
 .experience__container h2 {
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
   font-size: 3rem;
   font-weight: 700;
   color: var(--primary-color-dark);
@@ -316,19 +319,26 @@ nav {
 }
 
 footer {
-  background-color: var(--light-background);
+  /* background: linear-gradient(to right, #b8c1ec, #eebbc3); */
+  background-color: var(--pink-background);
+}
+
+footer span {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .footer__container h2 {
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
   font-weight: 600;
-  color: var(--white);
+  color: white;
 }
 
 .footer__container p {
   margin-bottom: 1rem;
-  color: var(--primary-color-light);
+  font-size: 1.2rem;
+  color: var(--primary-color-dark);
 }
 
 .footer__container .mail__to a {
@@ -336,30 +346,31 @@ footer {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: var(--primary-color-light);
+  color: var(--white);
 }
 
 .mail__to a span {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .footer__container .mail__to:hover a {
-  color: var(--white);
+  color: #767b97;
 }
 
 .footer__socials {
   display: flex;
   align-items: center;
   gap: 1rem;
+  padding-left: 0 !important;
 }
 
 .footer__socials a {
-  font-size: 1.25rem;
-  color: var(--primary-color-light);
+  font-size: 2.25rem;
+  color: var(--white);
 }
 
 .footer__socials a:hover {
-  color: var(--white);
+  color: #767b97;
 }
 
 @media (width > 768px) {
@@ -398,9 +409,5 @@ footer {
 
   .skill__flex {
     gap: 2rem;
-  }
-
-  .project__grid {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
