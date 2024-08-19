@@ -54,7 +54,7 @@ body {
 }
 
 nav {
-  background-image: linear-gradient(to right, #232946, #b8c1ec, #eebbc3)
+  background-image: linear-gradient(to right, #232946, #b8c1ec, #eebbc3);
 }
 
 .nav__bar {
@@ -70,13 +70,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--primary-color);
+  background-image: linear-gradient(to right, #232946, #b8c1ec, #eebbc3);
 }
 
 .nav__logo a {
   font-size: 2.4rem;
   font-weight: 300;
   color: var(--white);
+  background-image: none;
 }
 
 .nav__menu__btn {
@@ -96,7 +97,7 @@ nav {
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
-  background-color: var(--primary-color);
+  background-image: linear-gradient(to right, #232946, #b8c1ec, #eebbc3);
   transition: 0.5s;
   z-index: -1;
   transform: translateY(-100%);
@@ -390,6 +391,7 @@ footer span {
   .nav__header {
     padding: 0;
     background-color: transparent;
+    background-image: none;
   }
 
   .nav__menu__btn {
@@ -402,7 +404,7 @@ footer span {
     flex-direction: row;
     justify-content: flex-end;
     gap: 4rem;
-    background-color: transparent;
+    background-image: none;
     transform: none;
     z-index: 1;
   }
