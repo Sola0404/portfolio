@@ -213,7 +213,7 @@ nav {
 .project__container {
   max-width: 100%;
   height: max-content;
-  background-color: var(--light-background);
+  background-color: var(--primary-color-dark);
   padding-bottom: 40px;
 }
 
@@ -221,7 +221,7 @@ nav {
   margin-bottom: 3rem;
   font-size: 3rem;
   font-weight: 600;
-  color: var(--primary-color-dark);
+  color: var(--white);
   text-align: center;
 }
 
@@ -236,21 +236,19 @@ nav {
   margin-inline: auto;
   margin-top: 3rem;
   width: fit-content;
-  min-height: 330px;
+  min-height: 230px;
+  text-align: center;
+}
+
+.carousel-details h3 {
+  color: var(--white);
 }
 
 .carousel-details h4 {
+  margin-block: 1.75rem;
   font-size: 1rem;
   font-weight: 500;
-  color: #989ebe;
-}
-
-.carousel-details ul {
-  list-style-type: circle;
-}
-
-.carousel-details li {
-  color: var(--primary-color-dark);
+  color: var(--primary-color-light)
 }
 
 .carousel-details a {
@@ -260,7 +258,7 @@ nav {
 
 .experience__container {
   max-width: 100%;
-  background-color: #ced4f8;
+  background-color: var(--light-background);
   padding-inline: 7rem;
 }
 
@@ -318,7 +316,7 @@ nav {
 }
 
 footer {
-  background-color: var(--primary-color);
+  background-color: var(--light-background);
 }
 
 .footer__container h2 {
