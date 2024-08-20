@@ -555,3 +555,11 @@ footer span {
   font-weight: 600;
   color: #2c3e50;
 }
+
+.footer__credit {
+  text-align: center;
+  margin-top: 3rem !important;
+  margin-bottom: 0;
+  font-size: 0.8rem !important;
+  color: #979197 !important;
+}
